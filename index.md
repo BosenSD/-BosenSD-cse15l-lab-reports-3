@@ -89,7 +89,7 @@ static void reverseInPlace(int[] arr) {
 
 # Part 2
 
-## My choice is `grep` command**
+## My choice is `grep` command
 
 **1. `grep <<string>> <<file>>`** search a file or files for the given string, print matching lines.
 
