@@ -197,8 +197,86 @@ $ grep -n Marriott 911report/chapter-9.txt
 1731:                complex. As a result, numerous units were congregating in the undamaged Marriott
 ```
 
-## Citation
-@ChatGPT
+# Citations
+
+## Citation 1
+
+**my prompt**
+
+what does `grep <<string>> <<file>>` do in bash?
+
+
+**ChatGPT output**
+
+In Bash, the command `grep <<string>> <<file>>` is used to search for occurrences of a specific string or pattern within a file. Here's a detailed breakdown of what this command does:
+
+Breakdown of the Command
+
+`grep`: Stands for "global regular expression print". It is a command-line utility used to search for specific patterns within files.
+
+`<<string>>`: The string or pattern you are searching for. This can be a simple string or a more complex regular expression.
+
+`<<file>>`: The file in which you are searching for the string or pattern.
+
+How It Works
+
+When you run `grep <<string>> <<file>>`, `grep` will scan through each line of the specified file and print out all lines that contain the specified string or match the given pattern.
+
+## Citation 2
+
+**my prompt**
+
+what does `grep -c  <<string>> <<file>>` do in bash?
+
+**ChatGPT output**
+
+The command `grep -c <<string>> <<file>>` in Bash is used to count the number of lines in a file that contain a specific string or pattern. Here's a detailed explanation of what each part of the command does:
+
+Breakdown of the Command
+
+grep: The command-line utility used to search for patterns within files.
+
+`-c`: The option that tells grep to count the number of matching lines instead of displaying the matching lines themselves.
+
+`<<string>>`: The string or pattern you are searching for within the file.
+
+`<<file>>`: The file in which you are searching for the string or pattern.
+
+How It Works
+
+When you run `grep -c <<string>> <<file>>`, grep searches through the specified file for lines that contain the specified string or match the given pattern. Instead of printing the matching lines, it prints the count of those lines.
+
+## Citation 3
+
+**my prompt**
+
+what does `grep -r  <<string>> <<file>>` do in bash?
+
+**ChatGPT output**
+
+The command `grep -r <<string>> <<directory>>` (note that it's typically used with a directory rather than a single file) in Bash is used to recursively search for a specified string or pattern within all files in a given directory and its subdirectories.
+
+Breakdown of the Command
+
+grep: The command-line utility used for searching text using patterns.
+
+`-r`: The option that tells grep to search recursively through all files and subdirectories within the specified directory.
+
+`<<string>>`: The string or pattern you are searching for.
+
+`<<directory>>`: The directory in which you want to start the recursive search.
+
+How It Works
+
+When you run `grep -r <<string>> <<directory>>`, grep will:
+
+Traverse the specified directory and all its subdirectories.
+
+Search for the specified string or pattern in each file it encounters.
+
+Print each line that contains the string, along with the file name where the match was found.
+
+## Citation 4
 
 **my prompt**
 
